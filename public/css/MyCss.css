@@ -1,0 +1,352 @@
+#auth-body,#reset-body
+{
+    background-image: url(../media/login_image2.png);
+    /*background: #67c5db;*/
+    background-size: cover;
+    border:0;
+    background-repeat: no-repeat;
+}
+#header.header-front-page
+{
+    background-image: url(../media/asd.png);
+}
+.pace-overlay
+{
+    background-image: url(../media/asd.png);
+    background-size: cover;
+}
+#welcome
+{
+    background-image: url(../media/asd.png);
+    background-size: cover;
+    width:100%;
+    height: 100%;
+}
+.panel-default{
+    border:none;
+    margin-top: 70px;
+    margin-bottom: none;
+}
+#pledge
+{
+    font-family: "Raleway", "Helvetica Neue"sans-serif;
+    font-weight: 400;
+    text-shadow: none;
+    color: #4d4d4d;
+    padding: 0 30px;
+}
+#input-pledge
+{
+    height: 50px;
+    border: 2px solid #b2b2b2;
+    border-radius: 2;
+}
+#input-pledge:focus
+{
+    
+    border: 2px solid #45a9ff;
+    border-radius: 2;
+}
+#submit-btn
+{
+    padding-top: 40px;
+}
+#email, #password, #name, #password-confirm, #username,#name, #amount, #pt_number, #article, #current_gr
+{
+    background: rgba(20, 95, 123, 0.88);
+    border: 0;
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+    box-sizing: border-box;
+}
+#login_btn, #signup-btn,#reset-btn
+{
+    color: white;
+    background: rgba(20, 95, 123, 0.88);
+    border: 0;
+    font-weight: 600px;
+}
+#login_btn:hover, #signup-btn:hover, #reset-btn:hover, #create-btn .btn-default:hover
+{
+    background: rgba(18, 81, 105, 0.88);
+    border: 0;
+}
+#btn_FYP
+{
+    padding-top: 20px;
+    color: white;
+}
+label
+{
+    padding-bottom: 10px;
+}
+.panel-title
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+#login-form
+{
+    color: #636b6f;
+    border-bottom: none;
+    background: rgba(11, 165, 201, 0.5);
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute; 
+    top: 200px;
+    left: 50%;
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+}
+#reset-form
+{
+    color: #636b6f;
+    border-bottom: none;
+    background: rgba(11, 165, 201, 0.5);
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute; 
+    top: 150px;
+    left: 50%;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+#signup-form
+{
+    color: #636b6f;
+    border-bottom: none;
+    background: rgba(11, 165, 201, 0.5);
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    position: absolute; 
+    top: 200px;
+    left: 50%;
+    height: auto;
+    width: 100%;
+    max-width: 450px;
+}
+#pledge-form
+{
+    background: white;
+    margin-top: 15px;
+}
+#pledge-form label
+{
+    color: #5c5c5c;
+    font-size: 16px;
+}
+#login-form .panel-body
+{
+    padding: 35px;
+}
+#login-form .panel-title
+{
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+#pledge-form .panel-body
+{
+    padding: 25px;
+}
+#signup-form .panel-title
+{
+    padding-bottom: 20px;
+}
+
+#email,#password
+{
+    box-shadow: none;
+    text-shadow: none;
+}
+.navbar-default 
+{
+    background: rgba(42, 106, 141, 0.88);
+    border: none;
+}
+.navbar-default .navbar-brand, label
+{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.navbar-right #links, #user
+{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.navbar-right #links:focus
+{
+    background-color: #41b0d6;
+}
+#links:hover
+{
+    color: #ffffff;
+}
+.navbar-nav #user:focus
+{
+    background-color: #41b0d6;
+    color: white;
+}
+.navbar-default .navbar-brand:hover
+{
+    color: #3e79a3;
+}
+#nav-items
+{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    text-shadow: none;
+}
+#nav-items:hover
+{
+    background: #41b0d6; 
+}
+#navbar-brand:hover
+{
+    color: white;
+}
+.show
+{/* show password link */
+    color: #ffffff;
+    float: right;
+    margin-left: 190px;
+    font-size: 15px;
+}
+.show:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.show:focus{
+    outline:none;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 768px)
+{
+    #login-form
+    {
+        top: 119px;
+        margin-bottom: 0;
+        height: auto;
+    }
+    #signup-form
+    {
+        top: 145px;
+        margin-bottom: 0;
+        height: auto;
+    }
+    body #auth-body
+    {
+        border:0;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
+.h1 h1{
+    font-weight: 400;
+    color: #484848;
+    font-family: "Open Sans",sans-serif;
+    outline: 0;
+    font-size: 30px;
+    line-height: 1.6em;
+    margin-bottom: .2em;
+    letter-spacing: -0.029em;
+    font-style: normal;
+}
+.h1 p{
+    max-width: 635px;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: rgb(46, 46, 46);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    font-style: inherit;
+    font-family: "Open Sans",sans-serif; 
+    vertical-align: baseline;
+    line-height: 24px;
+}
+.pledge, .redemption{
+    float: left;
+    margin-top: 40px;
+}
+.c-white{
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 24px 0 21px;
+    margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+    margin-bottom: 30px;
+    height: auto;
+}
+#image
+{
+    background-image: url(../media/no-list.svg);
+    background-size: cover;
+}
+.pledge-row
+{
+    margin-top: 180px;  
+}
+#create-btn .btn-default{
+    color: white;
+    background: rgba(20, 103, 134, 0.88);
+    border: 0;
+    font-weight: 600px;
+    border:0;
+    max-width: 150px;
+    font-family: "Open Sans",sans-serif; 
+    text-align: center;
+    margin-top: 100px;
+    float:right;
+    margin-right: 10px;
+}
+#interstitialModal .modal-content{
+    max-width: 100%;
+    border: 0px;
+    text-align: center; 
+    padding: 0 15px;
+}
+#interstitialModal .modal-body{
+    padding:0;
+}
+.modal-dialog{
+    padding: 0;
+}
+.modal-footer{
+    margin: 0 auto;
+    text-align: center;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
